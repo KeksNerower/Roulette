@@ -1,0 +1,10 @@
+C:\Users\User\С@Code\Studing\5_Ruletka\5_Ruletka\bin\Debug\5_Ruletka.exe.config
+C:\Users\User\С@Code\Studing\5_Ruletka\5_Ruletka\bin\Debug\5_Ruletka.exe
+C:\Users\User\С@Code\Studing\5_Ruletka\5_Ruletka\bin\Debug\5_Ruletka.pdb
+C:\Users\User\С@Code\Studing\5_Ruletka\5_Ruletka\obj\Debug\5_Ruletka.csprojAssemblyReference.cache
+C:\Users\User\С@Code\Studing\5_Ruletka\5_Ruletka\obj\Debug\_5_Ruletka.Form1.resources
+C:\Users\User\С@Code\Studing\5_Ruletka\5_Ruletka\obj\Debug\_5_Ruletka.Properties.Resources.resources
+C:\Users\User\С@Code\Studing\5_Ruletka\5_Ruletka\obj\Debug\5_Ruletka.csproj.GenerateResource.cache
+C:\Users\User\С@Code\Studing\5_Ruletka\5_Ruletka\obj\Debug\5_Ruletka.csproj.CoreCompileInputs.cache
+C:\Users\User\С@Code\Studing\5_Ruletka\5_Ruletka\obj\Debug\5_Ruletka.exe
+C:\Users\User\С@Code\Studing\5_Ruletka\5_Ruletka\obj\Debug\5_Ruletka.pdb
