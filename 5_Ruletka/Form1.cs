@@ -16,7 +16,7 @@ namespace _5_Ruletka
         protected string places;
         protected uint bank = 200;
         protected uint bet = 10;
-        protected byte betmode=0;
+        protected byte betmode = 0;
         protected char betselect;
         protected byte rebuy;
         public Form1()
@@ -25,7 +25,7 @@ namespace _5_Ruletka
             places = Help.InitPlaces();
             textBox2.Text = Convert.ToString(bank);
             textBox3.Text = Convert.ToString(bet);
-            button1.Enabled = false;
+            //button1.Enabled = false;
         }
 
         //
@@ -121,9 +121,7 @@ namespace _5_Ruletka
         //
         //
         //Вращение рулетки
-        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        //Кнопка Roll неактивна, пока ставка не больше 0, или не выбрано поле для стаки
-        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        //Кнопка Roll неактивна, пока не выбрано поле для стаки
         private void button_Roll_Click(object sender, EventArgs e)
         {
             int num = Help.GetRand();
@@ -150,17 +148,15 @@ namespace _5_Ruletka
                 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 bank += bet * rebuy;
                 textBox2.Text = Convert.ToString(bank);
-                
                 textBox4.Text = $"WIN {bet * rebuy}";
-                textBox4.ForeColor = Color.Green;
+                textBox4.BackColor = Color.Green;
             }
             else
             {
                 bank -= bet;
                 textBox2.Text = Convert.ToString(bank);
-                
                 textBox4.Text = $"LOSE {bet}";
-                textBox4.ForeColor = Color.Red;
+                textBox4.BackColor = Color.DarkRed;
             }
 
             betmode = 0;
